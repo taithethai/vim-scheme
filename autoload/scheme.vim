@@ -1,6 +1,6 @@
 function! scheme#connect()
   new
-  let s:repl_term_id = termopen('mit-scheme')
+  let s:repl_term_id = termopen('simply-stk')
 
   if g:scheme_split_size != "default"
     silent execute "resize " . g:scheme_split_size
